@@ -1,0 +1,16 @@
+{
+  "name": "boilderplateReact",
+  "version": "1.0.0",
+  "description": "There is a boilderplate for Webpack React and MongoDB",
+  "main": "index.js",
+  "author": "Anh(Robert)T. NGUYEN",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "html-webpack-plugin": "^2.29.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "source-map-loader": "^0.2.1",
+    "webpack": "^3.3.0"
+  }
+}
