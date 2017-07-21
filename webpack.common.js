@@ -19,7 +19,10 @@ module.exports={
 	},
 	resolve:{
 		extensions: ['.js','.json'],
-		modules:[path.join(__dirname, 'src'),'node_modules']
+		modules:[path.join(__dirname, 'src'),'node_modules'],
+		alias:{
+			jquery: "jquery/src/jquery"
+		}
 	},
 	module:{
 		rules:[
